@@ -1,1 +1,54 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Recall - Windows Productivity App</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f5f5f5;\n            margin: 0;\n            padding: 0;\n        }\n        header {\n            background-color: #4CAF50;\n            color: white;\n            padding: 15px;\n            text-align: center;\n        }\n        main {\n            padding: 20px;\n        }\n        button {\n            background-color: #4CAF50;\n            color: white;\n            padding: 10px 20px;\n            border: none;\n            cursor: pointer;\n        }\n        button:hover {\n            background-color: #45a049;\n        }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Welcome to Recall</h1>\n        <p>Your productivity companion on Windows</p>\n    </header>\n    <main>\n        <h2>Get Started</h2>\n        <p>Click the button below to launch Recall.</p>\n        <button id="launchButton">Launch Application</button>\n    </main>\n    <script>\n        document.getElementById('launchButton').onclick = function() {\n            alert('Recall application is launching...');\n            // Functionality to launch the app would go here\n        };\n    </script>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recalloo - Productivity App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to Recalloo</h1>
+        <p>Your ultimate productivity app to manage tasks and projects efficiently.</p>
+        <a href="#signup" class="cta-button">Get Started</a>
+    </header>
+
+    <section class="problem">
+        <h2>The Problem</h2>
+        <p>In today’s fast-paced world, productivity can be a challenge. Many people struggle to keep track of tasks and manage their time effectively.</p>
+    </section>
+
+    <section class="solution">
+        <h2>Our Solution</h2>
+        <p>Recalloo offers a simple and user-friendly interface to manage your tasks, set reminders, and track your progress.</p>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <pul
+        <li>Create and manage tasks</li>
+        <li>Set deadlines and reminders</li>
+        <li>Track your productivity with analytics</li>
+    </ul>
+    </section>
+
+    <section class="privacy">
+        <h2>Privacy First</h2>
+        <p>Your data is ours to protect. We ensure high standards of security and privacy.</p>
+    </section>
+
+    <section class="target-users">
+        <h2>Who Can Use Recalloo?</h2>
+        <p>Whether you’re a student, a professional, or anyone wanting to improve productivity, Recalloo is for you.</p>
+    </section>
+
+    <footer>
+        <h2>Stay Updated</h2>
+        <form id="signup" action="#" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>© 2026 Recalloo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
