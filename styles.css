@@ -1,0 +1,102 @@
+.hero {
+    background-color: #f0f4f8;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.problem {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.problem h2 {
+    font-size: 2em;
+    color: #444;
+}
+
+.solution {
+    background-color: #fafafa;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.solution h2 {
+    font-size: 2em;
+    color: #444;
+}
+
+.how-it-works {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.privacy {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+
+.privacy h2 {
+    font-size: 2em;
+    color: #444;
+}
+
+.target-users {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.target-users h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #fff;
+}
+
+.footer form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer input[type='email'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.footer button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+}
